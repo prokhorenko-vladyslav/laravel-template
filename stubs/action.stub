@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Responses\AppResponse;
+
+readonly class {{ class }}
+{
+    public function handle(): AppResponse
+    {
+        // TODO: Implement handle() method.
+    }
+}

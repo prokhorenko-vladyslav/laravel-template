@@ -1,0 +1,26 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Contracts\DTO;
+
+readonly class {{ class }} extends DTO
+{
+    private function __construct(
+        //
+    ) {}
+
+    protected static function build(array $data): static
+    {
+        return new static(
+            //
+        );
+    }
+
+    protected static function rules(): array
+    {
+        return [
+            //
+        ];
+    }
+}
